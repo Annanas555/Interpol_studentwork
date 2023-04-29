@@ -1,0 +1,26 @@
+﻿<Window x:Class="Interpol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interpol"
+        mc:Ignorable="d"
+        Title="Interpol" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Style="{StaticResource ColorSecondary}"></Grid>
+        <Grid Grid.Row="2" Style="{StaticResource ColorSecondary}"></Grid>
+
+        <Image Source="Assets/INTERPOL_Logo.png" Width="100" HorizontalAlignment="Left"></Image>
+        <Button Content="НАЗАД" Style="{StaticResource BtnHead}" HorizontalAlignment="Right" VerticalAlignment="Top" Name="BtnBack" Click="BtnBack_Click"></Button>
+        <Button Content="ВОЙТИ" Style="{StaticResource BtnHead}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="BtnLog" Click="BtnLog_Click"></Button>
+        <Button Content="ВЫЙТИ" Style="{StaticResource BtnHead}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="BtnOut" Visibility="Collapsed" Click="BtnOut_Click"></Button>
+        <TextBlock Style="{StaticResource BlockHeader}" Text="{Binding ElementName=FrameMain, Path=Content.Title}"></TextBlock>
+        <Frame x:Name="FrameMain" NavigationUIVisibility="Hidden" Grid.Row="1"></Frame>
+        <TextBlock Style="{StaticResource Foot}" Text="Интерпол (Международная организация уголовной полиции)" Grid.Row="2"></TextBlock>
+    </Grid>
+</Window>

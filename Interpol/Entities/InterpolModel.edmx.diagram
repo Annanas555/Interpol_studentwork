@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="606f12f986734ddfaa697549afb5db42" Name="Diagram1">
+        <EntityTypeShape EntityType="InterpolModel.Dela" Width="1.5" PointX="3" PointY="12.75" />
+        <EntityTypeShape EntityType="InterpolModel.Lica_v_baze" Width="1.5" PointX="3" PointY="4.5" />
+        <EntityTypeShape EntityType="InterpolModel.Message" Width="1.5" PointX="5.25" PointY="14.875" />
+        <EntityTypeShape EntityType="InterpolModel.Nation" Width="1.5" PointX="0.75" PointY="3.125" />
+        <EntityTypeShape EntityType="InterpolModel.Prest_prof" Width="1.5" PointX="3" PointY="20" />
+        <EntityTypeShape EntityType="InterpolModel.Prestupniki" Width="1.5" PointX="5.25" PointY="8.625" />
+        <EntityTypeShape EntityType="InterpolModel.Prichiny_vyb" Width="1.5" PointX="3" PointY="2.125" />
+        <EntityTypeShape EntityType="InterpolModel.Razyskivaemye" Width="1.5" PointX="5.25" PointY="2.875" />
+        <EntityTypeShape EntityType="InterpolModel.Role" Width="1.5" PointX="7.75" PointY="1" />
+        <EntityTypeShape EntityType="InterpolModel.Sledovateli" Width="1.5" PointX="0.75" PointY="11" />
+        <EntityTypeShape EntityType="InterpolModel.Statiyi" Width="1.5" PointX="0.75" PointY="19.75" />
+        <EntityTypeShape EntityType="InterpolModel.Status" Width="1.5" PointX="0.75" PointY="6.125" />
+        <EntityTypeShape EntityType="InterpolModel.Stepeni_st" Width="1.5" PointX="1.5" PointY="23" />
+        <EntityTypeShape EntityType="InterpolModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.75" />
+        <EntityTypeShape EntityType="InterpolModel.Tip_prest" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="InterpolModel.User" Width="1.5" PointX="10" PointY="0.875" />
+        <EntityTypeShape EntityType="InterpolModel.Vybyvshie" Width="1.5" PointX="5.25" PointY="6" />
+        <EntityTypeShape EntityType="InterpolModel.Zvaniya" Width="1.5" PointX="1.5" PointY="16.75" />
+        <AssociationConnector Association="InterpolModel.FK_Dela_Sledovateli" />
+        <AssociationConnector Association="InterpolModel.FK_Dela_Statiyi" />
+        <AssociationConnector Association="InterpolModel.FK_Razyskivaemye_Dela" />
+        <AssociationConnector Association="InterpolModel.FK_Lica_v_baze_Nation" />
+        <AssociationConnector Association="InterpolModel.FK_Lica_v_baze_Status" />
+        <AssociationConnector Association="InterpolModel.FK_Messages_Lica_v_baze" />
+        <AssociationConnector Association="InterpolModel.FK_Prestupniki_Lica_v_baze" />
+        <AssociationConnector Association="InterpolModel.FK_Razyskivaemye_Lica_v_baze" />
+        <AssociationConnector Association="InterpolModel.FK_Vybyvshie_Lica_v_baze" />
+        <AssociationConnector Association="InterpolModel.FK_Prestupniki_Prest_prof" />
+        <AssociationConnector Association="InterpolModel.FK_Prestupniki_Tip_prest" />
+        <AssociationConnector Association="InterpolModel.FK_Vybyvshie_Prichiny_vyb" />
+        <AssociationConnector Association="InterpolModel.FK_Users_Roles" />
+        <AssociationConnector Association="InterpolModel.FK_Sledovateli_Zvaniya" />
+        <AssociationConnector Association="InterpolModel.FK_Statiyi_Stepeni_st" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

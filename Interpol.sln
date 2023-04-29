@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpol", "Interpol\Interpol.csproj", "{FB68991C-31D5-4EC5-9561-7AC75882A62D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolLibrary", "InterpolLibrary\InterpolLibrary.csproj", "{8F72ACDF-475E-475B-8990-117134CD29AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB68991C-31D5-4EC5-9561-7AC75882A62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB68991C-31D5-4EC5-9561-7AC75882A62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB68991C-31D5-4EC5-9561-7AC75882A62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB68991C-31D5-4EC5-9561-7AC75882A62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F72ACDF-475E-475B-8990-117134CD29AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F72ACDF-475E-475B-8990-117134CD29AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F72ACDF-475E-475B-8990-117134CD29AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F72ACDF-475E-475B-8990-117134CD29AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6CB73F-5264-4C49-A693-C11FD1932DF9}
+	EndGlobalSection
+EndGlobal
